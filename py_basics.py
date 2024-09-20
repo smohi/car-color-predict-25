@@ -21,3 +21,17 @@ car_info = {
     "price" : 2500000.50
 }
 print(car_info['color'])
+
+if sales>1000:
+    print("High Sales")
+else:
+    print("Low Sales")
+    
+#for loop
+for color in colors:
+    print(color)
+    
+count = 0
+while count < 5:
+    print(count)
+    count+=1
